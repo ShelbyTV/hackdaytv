@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -36,12 +35,21 @@ app.get('/nyc', function(req, res){
   res.render('nyc');
 });
 
+app.get('/apis', function(req, res){
+  res.render('apis');
+});
+
+
 app.get('/sf', function(req, res){
   res.render('sf');
 });
 
 app.get('/contribute', function(req, res){
   res.render('contribute');
+});
+
+app.get('/faq', function(req, res){
+  res.render('faq');
 });
 
 app.listen(3005);

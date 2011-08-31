@@ -18,26 +18,34 @@ a{
 #footer{
   border-top:1px solid #909090;
   position:absolute;
-  bottom:0px;
-  height:110px;
+  bottom:2px;
+  height:70px;
   width:97%;
   z-index:2000;
   background:white;
 }
 
 #proudly{
+  top:0px;
+  left:10px;
+  position:absolute;
   font-size:20px;
   margin-left:20px;
   font-style:italic;
 }
 
 #shelby-foot{
-  width:300px;
+  width:200px;
   float:right;
 }
 #tokbox-foot{
-  width:220px;
+  width:150px;
   float:right;
+}
+
+#ga-foot{
+  float:right;
+  height:45px;
 }
 
 .footer-item{
@@ -47,17 +55,18 @@ a{
 
 #powered{
   float:right;
-  font-size:26px;
-  font-weight:bold;
-  margin-top:50px;
+  font-size:18px;
   color:#303030;
 }
 
 #content{
   position:absolute;
-  top:145px;
-  width:97%;
+  top:130px;
+  width:101%;
+  left:0px;
   padding:5px;
+  height:67%;
+  overflow:scroll;
 }
 
 .header-text{
@@ -69,11 +78,13 @@ a{
 #header-description{
   display:none;
   margin-left:15px;
+  overflow:hidden;
 }
 
 #header-signup{
   float:right;
   margin-right:70px;
+  z-index:3000;
 }
 
 .header-item{
@@ -87,18 +98,20 @@ a{
 }
 
 #logos{
-  width:740px;
+  display:none;
+  position:absolute;
+  left:120px;
+  top:55px;
   padding-top:10px;
-  margin-left:20px;
 }
 
+
 #info{
-  margin-right:20px;
-  border-left: 1px solid #999999;
   font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
-  top:5px;
+  border-left:1px solid #999999;
+  top:35px;
   position:absolute;
-  right:10px;
+  right:70px;
   padding-left:30px;
   z-index:1000;
   background:white;
@@ -106,7 +119,7 @@ a{
 }
 
 #ga_logo{
-  height:50px;
+  height:30px;
 }
 
 .sponsor{
@@ -150,7 +163,6 @@ width:350px;
 
 #links{
   margin-left:10px;
-  margin-top:70px;
   font-size:16px;
   float:left;
 }
@@ -168,4 +180,27 @@ width:350px;
   outline:none;
   border:1px solid #707070;
   padding:5px;
+}
+
+.hack-idea{
+  border-bottom:1px solid #999999;
+  margin:10px;
+  width:500px;
+}
+
+.hack-idea img{
+  width:150px;
+}
+
+#hack-ideas{
+  margin-left:20px;
+}
+
+#faq {
+  margin-left:20px;
+  font-size:18px;
+}
+
+.quest{
+  width:400px;
 }

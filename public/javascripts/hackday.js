@@ -8,15 +8,14 @@ var Hackday = {
     el.html(el.html()+chars.charAt(0));
     setTimeout(function(){
       self.rPrint(chars.slice(1, chars.length), el, cb);
-    }, 0);
+    }, 50);
   },
 
   init : function(){
-    jQuery('.sponsor').each(function(i, el){
-      jQuery(el).fadeIn(900);
-    });
+    var logos = jQuery('#logos')[0];
+    jQuery(logos).fadeIn(1300);
     var info = jQuery('#info')[0]; 
-    jQuery(info).fadeIn(900);
+    jQuery(info).fadeIn(1300);
     var headerText = jQuery('#header-description')[0];
     var chars = jQuery(headerText).text();
     jQuery(headerText).text('');
