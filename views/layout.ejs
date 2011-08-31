@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hackday.tv</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script type='text/javascript' src='/javascripts/hackday.js'></script>
+    <script type='text/javascript'>
+      jQuery(document).ready(function(){
+        Hackday.init();
+      });
+    </script>
+  </head>
+  <div id="header">
+    <div class="header-item">
+      <a href="/"><img id="header-logo" src="/images/hackday_blue.png"></img></a>
+    </div>  
+    <div id="header-description" class="header-item header-text">
+    A 24 hour hackathon dedicated to the wonderful world of video 
+    </div>
+    <div id="header-signup" class="header-item header-text">
+      <a href="http://www.eventbrite.com/event/2072060589">Sign Up</a>
+    </div>
+  </div>
+
+  <body>
+    <div id="content">
+      <%- body %>
+    </div>
+  </body>
+  
+  <div id="footer">
+  <div class="footer-item" id="links">Contribute: <span class="contrib"><a href="/contribute">Sponsor</a></span><span class="contrib"><a href="/contribute">APIs</a></span> <span class="contrib"><a href="/contribute">Volunteers</a></span></div>
+  <a href="http://shelby.tv"><img src="/images/shelby_black.png" id="shelby-foot" class="footer-item"></img></a>
+  <a href="http://www.tokbox.com/"><img src="/images/opentok.png" id="tokbox-foot" class="footer-item"></img></a>
+  <div class="footer-item" id="powered">Powered by</div>
+  </div>
+
+</html>

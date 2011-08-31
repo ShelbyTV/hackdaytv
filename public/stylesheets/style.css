@@ -1,0 +1,171 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+}
+
+#header{
+  border-bottom:1px solid #909090;
+  padding-bottom:15px;
+  position:absolute;
+  height:105px;
+  width:97%;
+}
+
+#footer{
+  border-top:1px solid #909090;
+  position:absolute;
+  bottom:0px;
+  height:110px;
+  width:97%;
+  z-index:2000;
+  background:white;
+}
+
+#proudly{
+  font-size:20px;
+  margin-left:20px;
+  font-style:italic;
+}
+
+#shelby-foot{
+  width:300px;
+  float:right;
+}
+#tokbox-foot{
+  width:220px;
+  float:right;
+}
+
+.footer-item{
+  margin:20px;
+  position:relative;
+}
+
+#powered{
+  float:right;
+  font-size:26px;
+  font-weight:bold;
+  margin-top:50px;
+  color:#303030;
+}
+
+#content{
+  position:absolute;
+  top:145px;
+  width:97%;
+  padding:5px;
+}
+
+.header-text{
+  margin-top:50px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#header-description{
+  display:none;
+  margin-left:15px;
+}
+
+#header-signup{
+  float:right;
+  margin-right:70px;
+}
+
+.header-item{
+  position:relative;
+  float:left;
+}
+
+#header-logo{
+  width:300px;
+  height:97px;
+}
+
+#logos{
+  width:740px;
+  padding-top:10px;
+  margin-left:20px;
+}
+
+#info{
+  margin-right:20px;
+  border-left: 1px solid #999999;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  top:5px;
+  position:absolute;
+  right:10px;
+  padding-left:30px;
+  z-index:1000;
+  background:white;
+  display:none;
+}
+
+#ga_logo{
+  height:50px;
+}
+
+.sponsor{
+  display:none;
+  margin-left:20px;
+}
+
+.sponsor:hover{
+  opacity:0.8;
+}
+
+#nasdaq{
+  width:700px;
+  /*margin-left:300px;*/
+
+}
+
+#boxee{
+  width:140px;
+  height:140px;
+}
+
+#pepsi{
+  /*margin-left:365px;*/
+  width:280px;
+}
+
+#twilio{
+  width:250px;
+  margin-bottom:30px;
+}
+
+#vidly{
+  width:150px;
+  margin-bottom:30px;
+}
+
+#gigaom{
+width:350px;
+}
+
+#links{
+  margin-left:10px;
+  margin-top:70px;
+  font-size:16px;
+  float:left;
+}
+
+.contrib{
+  margin-left:20px;
+}
+
+.contrib a:hover{
+  text-decoration:underline;
+}
+
+#contrib-email{
+  color:#404040;
+  outline:none;
+  border:1px solid #707070;
+  padding:5px;
+}
