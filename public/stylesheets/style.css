@@ -196,6 +196,16 @@ width:350px;
   margin-left:20px;
 }
 
+#hack-ideas-scroll{
+  position:absolute;
+  top:0px;
+  right:2px;
+  height:100%;
+  padding-right:70px;
+  overflow-y:scroll;
+  z-index:3000;
+}
+
 #faq {
   margin-left:20px;
   font-size:18px;

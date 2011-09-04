@@ -52,5 +52,10 @@ app.get('/faq', function(req, res){
   res.render('faq');
 });
 
+app.get('/prizes', function(req, res){
+  res.render('prizes');
+});
+
 app.listen(3005);
+
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
