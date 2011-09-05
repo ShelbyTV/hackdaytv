@@ -193,7 +193,12 @@ width:350px;
 }
 
 #hack-ideas{
-  margin-left:20px;
+  /*margin-left:10px;*/
+}
+
+#apis-img{
+  width:550px;
+  position:absolute;
 }
 
 #hack-ideas-scroll{
